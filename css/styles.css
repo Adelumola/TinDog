@@ -1,0 +1,180 @@
+body{
+	font-family: "Montserrat";
+}
+h1{
+font-family: "Montserrat";
+font-size: 4rem;
+line-height: 1.5;
+font-weight: 2rem;
+color: white;
+	
+}
+
+
+
+
+/******ID'S*******/
+#title{
+	background-color: #ff4c68;
+}
+#features{
+	padding: 7% 15%;
+	background-color: white;
+	position: relative;
+	z-index: 1;
+}
+
+
+#testimonials{
+	text-align: center;
+	padding: 7% 15%;
+	background-color: #ff4c68;
+}
+
+#press{
+	background-color: #ff4c68;
+	text-align: center;
+}
+
+#pricing{
+		text-align: center;
+		padding: 3% 15%;
+}
+
+
+
+
+
+
+/*********CLASSES************/
+.header1{
+
+}
+.container-fluid{
+	padding: 3% 15% 7%;
+}
+.title-body{
+	margin-top: 30px;
+}
+
+.navbar-brand{
+	font-size: 2rem;
+}
+.nav-item{
+	padding: 0 18px;
+}
+.iphone{
+	width: 60%;
+	transform: rotate(20deg);
+	position: absolute;
+	right: 30%
+	
+}
+.display1{
+
+	margin-top: 20px;
+}
+.iconcenter{
+	margin-top: 20px;
+	text-align:center;
+	
+}
+.iconcenter i{
+	color: red;
+}
+.iconcenter i:hover{
+	color: #c81912;
+}
+
+
+.iconcenter h3{
+    color: black;
+}
+.iconcenter p{
+color: grey;
+}
+
+/*testimonials-side*/
+
+.testimonial h2{
+	width: 1000px;
+	line-height: 1.5;
+	text-align: center;
+	margin: auto;
+
+
+}
+.testimonial img{
+	 width: 150px;
+	 height: 150px;
+	border-radius: 50%;
+	margin-top: 20px;
+
+
+}
+
+
+/*Press-side*/
+
+.press-image{
+  height: 30px;
+  width: 200px;
+  margin: 20px 40px;
+ 
+}
+
+
+/*pricing*/
+.press-head{
+	margin-bottom: 40px;
+}
+
+/*
+CTA section*/
+#cta{
+	background-color:  #ff4c68;
+	text-align: center;
+	color: white;
+	padding: 7% 15%;
+}
+.cta-btn{
+	margin-top: 30px;
+}
+.cta-h3{
+	font-weight: 4em;
+}
+
+.cta-heading{
+	font-family: "Montserrat-Black";
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+
+/*FOOTER SECTION*/
+#footer{
+	text-align: center;
+	padding: 7% 15%;
+}
+.footer-icon{
+	padding: 10px 10px;
+}
+
+
+
+/*
+medai query section*/
+@media (max-width: 1028px){
+
+	#title{
+		text-align: center;
+	}
+
+
+	.iphone{
+	width: 60%;
+	transform: rotate(0);
+	position: static;
+	right: 30%
+	
+}
+}
